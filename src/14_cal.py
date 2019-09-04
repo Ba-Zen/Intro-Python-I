@@ -22,3 +22,7 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+
+
+cal = input("Input the year and month 'MM', separated by a comma:").split(',')
+print(cal)
